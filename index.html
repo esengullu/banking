@@ -31,7 +31,7 @@
     
         $(document).ready(function(){
             $.ui.launch();
-            
+            window.location.href='#signin';
             // setup signin and signup button events
             $("#login").on("click", function(){
 
@@ -213,7 +213,7 @@ $.ajax({
     <!-- Views -->
         
         <!-- Welcome View -->
-        <div class="panel" title="Welcome" id="page1" data-header="none" data-footer="none" selected="true">
+        <div class="panel" title="Welcome" id="page1" data-header="none" data-footer="none">
             <div style="text-align:center">
             <br>
             <br>
@@ -232,7 +232,7 @@ $.ajax({
         </div>
         
         <!-- Login View -->
-        <div class="panel" title="Login" id="signin" data-footer="none">
+        <div class="panel" title="Login" id="signin" data-footer="none" >
             <div style="text-align:center">
             <br>
             <br>
